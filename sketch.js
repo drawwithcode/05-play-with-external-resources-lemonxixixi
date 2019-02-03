@@ -1,7 +1,7 @@
 var sound,cover, fft, amplitude, r = 200, dr = 100;
 function preload(){
 	sound = loadSound("./assets/IFYOU.mp3");
-  cover = loadImage("./assets/cover.JPG")
+  cover = loadImage("./assets/cover.jpg")
 }
 function setup(){
   createCanvas(windowWidth,windowHeight);
